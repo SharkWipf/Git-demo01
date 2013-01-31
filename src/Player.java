@@ -106,7 +106,7 @@ public class Player {
 			score += diceRoll;
 			System.out.printf("Dice: %d\n", diceRoll);
 			if (score > goal)
-				System.out.printf("You're out of the game!\n");
+				System.out.printf("You're out of the game! You also lost The Game\n");
 		}
 	}
 }
