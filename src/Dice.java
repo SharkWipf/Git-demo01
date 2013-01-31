@@ -36,6 +36,7 @@ public class Dice {
 	
 	public int throwDice()
 	{
+		System.out.println("askdugasjuydhjsahgdjhgashgfsjyuckjsdhvhytsailjdhyfgahgv");
 		return d.nextInt(dice_max)+1;
 	}
 }

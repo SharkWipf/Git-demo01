@@ -75,7 +75,7 @@ public class Game {
 		if (winner != null)
 			System.out.printf("Player %s has won with a deviation of %d\n", winner.getName(), winner.dist());
 		else
-			System.out.printf("Nobody has won!\n");
+			System.out.printf("Nobody has won! Fail!\n");
 	}
 	
 	public Game()
